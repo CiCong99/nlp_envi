@@ -1,0 +1,32 @@
+# Báo cáo PDF/Word không đưa lên repo
+*.pdf
+*.docx
+
+# Dữ liệu, checkpoint, kết quả lớn (nằm trên Google Drive: MyDrive/NLP_Final_EnVi/)
+data_raw/
+data_clean/
+spm/
+checkpoints/
+ckpt_local/
+predictions/
+dryrun/
+eval_env/
+work/
+*.pt
+*.bin
+*.safetensors
+*.model
+*.parquet
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini

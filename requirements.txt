@@ -1,0 +1,18 @@
+# Trên Google Colab đã có sẵn torch, transformers, numpy, pandas, matplotlib —
+# các notebook chỉ cài thêm những gói còn thiếu bằng %pip.
+torch>=2.1
+transformers>=4.40
+peft>=0.12
+sacrebleu==2.6.0
+sacremoses
+sentencepiece
+protobuf
+nltk
+numpy
+pandas
+matplotlib
+tqdm
+packaging
+huggingface_hub
+# COMET và BERTScore chạy trong môi trường Python riêng do envi_lib/neural_env.py tự tạo
+# (unbabel-comet==2.2.7, bert-score==0.3.13) — không cài chung vào đây.
